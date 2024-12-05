@@ -1,0 +1,23 @@
+;;; init.el --- Initialization File! --- -*- lexical-binding: t; -*-
+;;; Code:
+
+;; Packages
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+(package-initialize)
+
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
+(eval-when-compile
+  (require 'use-package))
+
+(use-package emacs
+  :ensure t
+  :init
+  (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+  (load-theme 'rotor :no-confirm))
+
+;;; init.el ends here

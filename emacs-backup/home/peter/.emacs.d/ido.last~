@@ -1,0 +1,28 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/peter/.emacs.d/" . "auto-save-list/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/peter/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/peter/.emacs.d/" (26449 51261 762076 97000) "./" "elpa/" "ido.last" "init.el" "../" "transient/" "themes/" "savefile/" "auto-save-list/" "init.el~" "#init.el#" "history" "emacs-backup/")
+
+ ("/home/peter/.emacs.d/auto-save-list/" (26449 51110 771842 565000) "./" ".saves-16530-archlinux~" "../")
+
+ ("/home/peter/" (26449 47184 674154 182000) ".bash_history" "perl5/" ".cpanm/" "./" ".bashrc" ".erc/" ".bash_logout" ".cargo/" ".gtkrc-2.0" "Videos/" ".zshrc" ".local/" "Public/" "../" ".vimrc" ".npm/" "Desktop/" "code/" ".cache/" ".emacs.d/" "Downloads/" "Documents/" ".bash_profile" "scratch/" "Music/" ".mozilla/" "Pictures/" ".pki/" ".wget-hsts" ".config/" "Templates/" ".viminfo")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
